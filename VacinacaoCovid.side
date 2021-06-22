@@ -1,0 +1,721 @@
+{
+  "id": "022bea34-d34c-422d-aabd-f18331d3e9a3",
+  "version": "2.0",
+  "name": "VacinacaoCovid",
+  "url": "http://localhost:8080/VacinacaoCovidWeb/calcular_idade.jsp",
+  "tests": [{
+    "id": "54211458-4ac6-47ae-a81d-54eae23b90aa",
+    "name": "Teste01",
+    "commands": [{
+      "id": "b7c1cd61-e08a-4af8-885c-0bca5bc9abeb",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/VacinacaoCovidWeb/calcular_idade.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98d6ca70-ed20-4f26-8680-33a1e8905e38",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1325x778",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "916718a7-65e1-41aa-a55f-5b0b59a052ae",
+      "comment": "",
+      "command": "click",
+      "target": "name=vIdade",
+      "targets": [
+        ["name=vIdade", "name"],
+        ["css=td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='vIdade']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45fe0eac-9191-4e97-a296-4f357b012088",
+      "comment": "",
+      "command": "type",
+      "target": "name=vIdade",
+      "targets": [
+        ["name=vIdade", "name"],
+        ["css=td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='vIdade']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "2006"
+    }, {
+      "id": "343facf0-0213-4297-87a3-31dca06d65b1",
+      "comment": "",
+      "command": "click",
+      "target": "name=Enviar",
+      "targets": [
+        ["name=Enviar", "name"],
+        ["css=td:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='Enviar']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe8f65a2-c5cd-41d0-a725-b3a61d95b913",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": "Aplicação Teste Funcional\\n\\n\\nVeja se você pode vacinar\\n\\n\\nMensagem do Sistema: Você ainda não consta no calendario de vacinação."
+    }]
+  }, {
+    "id": "771abb44-f964-4bf7-b21b-dd38c14d422a",
+    "name": "Teste02",
+    "commands": [{
+      "id": "1a8336ce-4c33-40c4-b857-115862fc2aac",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/VacinacaoCovidWeb/calcular_idade.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea687dcb-052d-4cde-921f-6fe11a40b0c2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1325x778",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fcbe49ba-320d-4475-96a0-e45da7fede71",
+      "comment": "",
+      "command": "click",
+      "target": "name=vIdade",
+      "targets": [
+        ["name=vIdade", "name"],
+        ["css=td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='vIdade']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a811dfe4-ab1e-4559-b38b-1a3d583de6b0",
+      "comment": "",
+      "command": "type",
+      "target": "name=vIdade",
+      "targets": [
+        ["name=vIdade", "name"],
+        ["css=td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='vIdade']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "2001"
+    }, {
+      "id": "65769a71-e6be-4a4b-947a-d88edd809fc5",
+      "comment": "",
+      "command": "click",
+      "target": "name=Enviar",
+      "targets": [
+        ["name=Enviar", "name"],
+        ["css=td:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='Enviar']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "333ccb64-b2be-4353-b5a9-775251ea5764",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": "Aplicação Teste Funcional\\n\\n\\nVeja se você pode vacinar\\n\\n\\nMensagem do Sistema: Você ainda não pode se vacinar. Previsão para vacinação a partir de Setembro de 2021."
+    }]
+  }, {
+    "id": "a62ef353-3f57-44a4-95f9-73ca4722184b",
+    "name": "Teste03",
+    "commands": [{
+      "id": "07911599-289f-4cb4-bab4-75de2a08b6de",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/VacinacaoCovidWeb/calcular_idade.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "739f13c5-d0f1-4fa5-9ac7-0fb6aa46a1b8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1325x778",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91705d2d-0869-4fb7-b710-85c469b149f8",
+      "comment": "",
+      "command": "click",
+      "target": "name=vIdade",
+      "targets": [
+        ["name=vIdade", "name"],
+        ["css=td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='vIdade']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a141c00f-ca30-4c2e-9d13-e8a8a16a9569",
+      "comment": "",
+      "command": "type",
+      "target": "name=vIdade",
+      "targets": [
+        ["name=vIdade", "name"],
+        ["css=td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='vIdade']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1996"
+    }, {
+      "id": "0b2995f6-d2f0-4c57-854a-1751fe9ddd17",
+      "comment": "",
+      "command": "click",
+      "target": "name=Enviar",
+      "targets": [
+        ["name=Enviar", "name"],
+        ["css=td:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='Enviar']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a5bb040-a7a4-4219-89a7-93b4076e7a7f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": "Aplicação Teste Funcional\\n\\n\\nVeja se você pode vacinar\\n\\n\\nMensagem do Sistema: Você ainda não pode se vacinar. Previsão para vacinação a partir de Agosto de 2021."
+    }]
+  }, {
+    "id": "52cf348b-2fe8-43e2-865b-734f7a98f1d2",
+    "name": "Teste04",
+    "commands": [{
+      "id": "c9223d72-68c7-45c3-9605-687079c81b66",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/VacinacaoCovidWeb/calcular_idade.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "44737127-d26f-470d-a3e9-7fb10cdfb63b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1325x778",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "920ec105-b700-4a1a-a148-0d14c4156d42",
+      "comment": "",
+      "command": "click",
+      "target": "name=vIdade",
+      "targets": [
+        ["name=vIdade", "name"],
+        ["css=td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='vIdade']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fd3237f-aad1-43e0-81a4-bae1ec9b7622",
+      "comment": "",
+      "command": "type",
+      "target": "name=vIdade",
+      "targets": [
+        ["name=vIdade", "name"],
+        ["css=td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='vIdade']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1991"
+    }, {
+      "id": "03201ea5-f609-4894-ad10-eaf04804bd35",
+      "comment": "",
+      "command": "click",
+      "target": "name=Enviar",
+      "targets": [
+        ["name=Enviar", "name"],
+        ["css=td:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='Enviar']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e449a0be-81f5-498e-80d6-5108b0f83e7f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": "Aplicação Teste Funcional\\n\\n\\nVeja se você pode vacinar\\n\\n\\nMensagem do Sistema: Você ainda não pode se vacinar. Previsão para vacinação a partir de Agosto de 2021."
+    }]
+  }, {
+    "id": "8830daef-44ee-481f-82eb-ea4dfe4c2b76",
+    "name": "Teste05",
+    "commands": [{
+      "id": "98b91fb9-55ef-429f-bfe7-2be6139868f6",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/VacinacaoCovidWeb/calcular_idade.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee77c03d-c727-4f3b-9d96-f60cce8048a6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1325x778",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e24627a-3648-4a72-9498-20b5406abf39",
+      "comment": "",
+      "command": "click",
+      "target": "name=vIdade",
+      "targets": [
+        ["name=vIdade", "name"],
+        ["css=td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='vIdade']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f432286-c83d-4378-b425-b4a9e5274871",
+      "comment": "",
+      "command": "type",
+      "target": "name=vIdade",
+      "targets": [
+        ["name=vIdade", "name"],
+        ["css=td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='vIdade']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1986"
+    }, {
+      "id": "7ed78965-9000-4a3f-8cda-56b3b344541e",
+      "comment": "",
+      "command": "click",
+      "target": "name=Enviar",
+      "targets": [
+        ["name=Enviar", "name"],
+        ["css=td:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='Enviar']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5639087-08ac-4e7b-8f9f-6d13351bfacd",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": "Aplicação Teste Funcional\\n\\n\\nVeja se você pode vacinar\\n\\n\\nMensagem do Sistema: Você ainda não pode se vacinar. Previsão para vacinação a partir de Julho de 2021."
+    }]
+  }, {
+    "id": "5d6e4ec4-dcc1-4264-90ee-8cf547e3e674",
+    "name": "Teste06",
+    "commands": [{
+      "id": "cc789080-035f-46cb-b40f-ae3ff015ca10",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/VacinacaoCovidWeb/calcular_idade.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "87679c46-6819-40ac-9f82-67805cdddaf2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1325x778",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d83cd8c9-7310-4d72-b705-f1fef94f18d8",
+      "comment": "",
+      "command": "click",
+      "target": "name=vIdade",
+      "targets": [
+        ["name=vIdade", "name"],
+        ["css=td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='vIdade']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56a27463-0430-40c5-8600-0acf9258b34f",
+      "comment": "",
+      "command": "type",
+      "target": "name=vIdade",
+      "targets": [
+        ["name=vIdade", "name"],
+        ["css=td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='vIdade']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1981"
+    }, {
+      "id": "a1d6bcda-6d11-4453-9b4b-943f8837f9a1",
+      "comment": "",
+      "command": "click",
+      "target": "name=Enviar",
+      "targets": [
+        ["name=Enviar", "name"],
+        ["css=td:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='Enviar']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82d3af75-5f9b-4d05-9337-7cdbc1b17999",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": "Aplicação Teste Funcional\\n\\n\\nVeja se você pode vacinar\\n\\n\\nMensagem do Sistema: Você ainda não pode se vacinar. Previsão para vacinação a partir de Junho de 2021."
+    }]
+  }, {
+    "id": "7da1ca98-a34d-477d-8f73-90661554de2d",
+    "name": "Teste07",
+    "commands": [{
+      "id": "70209508-da34-46c0-83db-ce06707f656f",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/VacinacaoCovidWeb/calcular_idade.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "362583df-9bf8-47cd-9b37-91a2013acf36",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1325x778",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29971d8e-2a09-4149-b8c5-06ed76adbf9d",
+      "comment": "",
+      "command": "click",
+      "target": "name=vIdade",
+      "targets": [
+        ["name=vIdade", "name"],
+        ["css=td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='vIdade']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a138ebe6-870e-4a57-88ea-646c8be9530c",
+      "comment": "",
+      "command": "type",
+      "target": "name=vIdade",
+      "targets": [
+        ["name=vIdade", "name"],
+        ["css=td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='vIdade']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1976"
+    }, {
+      "id": "907bb7c1-d03b-433b-9a4a-0af14369657e",
+      "comment": "",
+      "command": "click",
+      "target": "name=Enviar",
+      "targets": [
+        ["name=Enviar", "name"],
+        ["css=td:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='Enviar']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a18b633e-4f94-4dd8-81ec-4f8d21d043dc",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": "Aplicação Teste Funcional\\n\\n\\nVeja se você pode vacinar\\n\\n\\nMensagem do Sistema: Você ainda não pode se vacinar. Previsão para vacinação a partir de Junho de 2021."
+    }]
+  }, {
+    "id": "a2dc27ba-74e9-4cc5-91d1-9a20fce8e91c",
+    "name": "Teste08",
+    "commands": [{
+      "id": "6180d832-9a2e-41f7-a3d8-2393a2e84821",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/VacinacaoCovidWeb/calcular_idade.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "47340a3e-805a-4949-b3a3-4797af0a6270",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1325x778",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "075988af-c36b-44af-b4b0-afbdbe25341b",
+      "comment": "",
+      "command": "click",
+      "target": "name=vIdade",
+      "targets": [
+        ["name=vIdade", "name"],
+        ["css=td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='vIdade']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85e00bde-2403-465c-a64c-c66d8baab0b9",
+      "comment": "",
+      "command": "type",
+      "target": "name=vIdade",
+      "targets": [
+        ["name=vIdade", "name"],
+        ["css=td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='vIdade']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1971"
+    }, {
+      "id": "79d9919c-7e83-40e8-b93b-0ef79031de4f",
+      "comment": "",
+      "command": "click",
+      "target": "name=Enviar",
+      "targets": [
+        ["name=Enviar", "name"],
+        ["css=td:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='Enviar']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47f3e193-c958-4ed7-aab8-c4ccddf2b8e4",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": "Aplicação Teste Funcional\\n\\n\\nVeja se você pode vacinar\\n\\n\\nMensagem do Sistema: Você ainda não pode se vacinar. Previsão para vacinação a partir de Maio de 2021."
+    }]
+  }, {
+    "id": "57bef085-23a9-40fd-ab9f-bcc2b1baa6c9",
+    "name": "Teste09",
+    "commands": [{
+      "id": "94f3582a-c698-43c7-926d-0701e33338dd",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/VacinacaoCovidWeb/calcular_idade.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "54dde72a-8f36-4f4e-90ff-2595d4188cbe",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1325x778",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a7a0e6e-d498-4ac5-9a3d-0268f21ddebd",
+      "comment": "",
+      "command": "click",
+      "target": "name=vIdade",
+      "targets": [
+        ["name=vIdade", "name"],
+        ["css=td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='vIdade']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84170a15-6f59-49ec-98d8-0cb246f28810",
+      "comment": "",
+      "command": "type",
+      "target": "name=vIdade",
+      "targets": [
+        ["name=vIdade", "name"],
+        ["css=td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='vIdade']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1966"
+    }, {
+      "id": "718f4ae2-b5b9-4293-8bb9-d7b3695ad851",
+      "comment": "",
+      "command": "click",
+      "target": "name=Enviar",
+      "targets": [
+        ["name=Enviar", "name"],
+        ["css=td:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='Enviar']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39f12ae2-c2a4-44f9-9a60-d862b6be330d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": "Aplicação Teste Funcional\\n\\n\\nVeja se você pode vacinar\\n\\n\\nMensagem do Sistema: Você ainda não pode se vacinar. Previsão para vacinação a partir de Maio de 2021."
+    }]
+  }, {
+    "id": "ec778f81-634f-4d41-a0da-dbafa1926375",
+    "name": "Teste10",
+    "commands": [{
+      "id": "59d24c8b-c3dd-4566-b2e7-d4a6569ead2a",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/VacinacaoCovidWeb/calcular_idade.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "958d822c-3407-4ea6-a90c-194fb22e6e8e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1325x778",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "993f0af3-8f71-43fe-9d54-b71031328586",
+      "comment": "",
+      "command": "click",
+      "target": "name=vIdade",
+      "targets": [
+        ["name=vIdade", "name"],
+        ["css=td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='vIdade']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20dc68ef-d512-41ca-92a2-50deaf17b7ac",
+      "comment": "",
+      "command": "type",
+      "target": "name=vIdade",
+      "targets": [
+        ["name=vIdade", "name"],
+        ["css=td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='vIdade']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1961"
+    }, {
+      "id": "c89f4b2f-f50b-4e36-834b-4d62b3842d0e",
+      "comment": "",
+      "command": "click",
+      "target": "name=Enviar",
+      "targets": [
+        ["name=Enviar", "name"],
+        ["css=td:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='Enviar']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91aa49d7-3d02-416d-b609-90dc8dc98926",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": "Aplicação Teste Funcional\\n\\n\\nVeja se você pode vacinar\\n\\n\\nMensagem do Sistema: Você ainda não pode se vacinar. Previsão para vacinação a partir do Dia 28 de Abril de 2021."
+    }]
+  }, {
+    "id": "2d039f3b-c0ca-4135-9b35-c7a01ae4faee",
+    "name": "Teste11",
+    "commands": [{
+      "id": "8598fe91-9f83-4608-961e-bd317ce6ec85",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/VacinacaoCovidWeb/calcular_idade.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f16a0c80-0be4-43d3-996f-5351ae09b91f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1325x778",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9bac504a-c028-4188-a002-28c7f3824d8b",
+      "comment": "",
+      "command": "click",
+      "target": "name=vIdade",
+      "targets": [
+        ["name=vIdade", "name"],
+        ["css=td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='vIdade']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a233f2de-476e-422c-9c09-2f9a7b1627cf",
+      "comment": "",
+      "command": "type",
+      "target": "name=vIdade",
+      "targets": [
+        ["name=vIdade", "name"],
+        ["css=td:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='vIdade']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1960"
+    }, {
+      "id": "3757242b-31f8-40cb-afe7-f98c017614a7",
+      "comment": "",
+      "command": "click",
+      "target": "name=Enviar",
+      "targets": [
+        ["name=Enviar", "name"],
+        ["css=td:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='Enviar']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b31c1572-610d-47d8-9496-37ac33b16a2e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": "Aplicação Teste Funcional\\n\\n\\nVeja se você pode vacinar\\n\\n\\nMensagem do Sistema: Você pode se vacinar, procure o Posto de Saúde mais próximo."
+    }]
+  }],
+  "suites": [{
+    "id": "d3cccbe2-11e2-452b-a541-43e9178dee05",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost:8080/VacinacaoCovidWeb/calcular_idade.jsp"],
+  "plugins": []
+}

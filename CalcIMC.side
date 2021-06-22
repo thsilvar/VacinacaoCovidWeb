@@ -1,0 +1,1155 @@
+{
+  "id": "d91e9a9f-556c-449a-9464-fa55c751f05f",
+  "version": "2.0",
+  "name": "CalcIMC",
+  "url": "http://localhost:8080/CalcIMCWeb/calcular_imc.jsp",
+  "tests": [{
+    "id": "1a8edc24-9ec0-4808-a5b0-e2298d0ade90",
+    "name": "Teste01",
+    "commands": [{
+      "id": "cd59a448-0b5b-4990-b9fb-dd97b1a72833",
+      "comment": "",
+      "command": "open",
+      "target": "/CalcIMCWeb/calcular_imc.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb53d0dc-2b22-429c-821e-98bddee68c17",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1306x782",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "978e998d-545d-4642-a1b9-b821f317926f",
+      "comment": "",
+      "command": "click",
+      "target": "name=vSexo",
+      "targets": [
+        ["name=vSexo", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='vSexo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1ef3401-2f3c-4f33-897b-7479181b8f59",
+      "comment": "",
+      "command": "type",
+      "target": "name=vSexo",
+      "targets": [
+        ["name=vSexo", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='vSexo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "F"
+    }, {
+      "id": "d914c0e1-c21c-49f9-8697-071ebfcc996b",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84b027bd-99c8-4356-9a1d-55f104ea8eee",
+      "comment": "",
+      "command": "click",
+      "target": "name=vPeso",
+      "targets": [
+        ["name=vPeso", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='vPeso']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "920e67e2-1eac-478a-b582-dcdd3b6da03e",
+      "comment": "",
+      "command": "type",
+      "target": "name=vPeso",
+      "targets": [
+        ["name=vPeso", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='vPeso']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "19"
+    }, {
+      "id": "60f0a980-fb4b-43a6-9a64-974edf33bc35",
+      "comment": "",
+      "command": "click",
+      "target": "name=frmCalculoIMC",
+      "targets": [
+        ["name=frmCalculoIMC", "name"],
+        ["css=form", "css:finder"],
+        ["xpath=//form[@name='frmCalculoIMC']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bc2a0e6-7888-4dc5-97ef-45b55ea33d8e",
+      "comment": "",
+      "command": "click",
+      "target": "name=vPeso",
+      "targets": [
+        ["name=vPeso", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='vPeso']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1844fd50-74fa-4879-8484-375c20120fbf",
+      "comment": "",
+      "command": "type",
+      "target": "name=vPeso",
+      "targets": [
+        ["name=vPeso", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='vPeso']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "19.0"
+    }, {
+      "id": "d74bc01e-04fe-4b91-835a-540c072055cb",
+      "comment": "",
+      "command": "click",
+      "target": "name=vAltura",
+      "targets": [
+        ["name=vAltura", "name"],
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='vAltura']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ed0ccff-194c-4b16-b117-a31fa987b8f1",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "name=vAltura",
+      "targets": [
+        ["name=vAltura", "name"],
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='vAltura']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ebe9814d-6224-4eb5-a5bf-53b1d682205a",
+      "comment": "",
+      "command": "type",
+      "target": "name=vAltura",
+      "targets": [
+        ["name=vAltura", "name"],
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='vAltura']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": "1.0"
+    }, {
+      "id": "82bc93ab-fbde-418f-842f-d3ad5a2f5181",
+      "comment": "",
+      "command": "click",
+      "target": "name=Enviar",
+      "targets": [
+        ["name=Enviar", "name"],
+        ["css=td:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='Enviar']", "xpath:attributes"],
+        ["xpath=//tr[4]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a673431f-0472-4891-ac33-fa951c32b59e",
+    "name": "Teste02",
+    "commands": [{
+      "id": "d73947e8-d49c-45d4-bfb4-8e5c76c74f74",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/CalcIMCWeb/calcular_imc.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75cbdba2-424d-4966-a01f-9a38cc48a33a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x875",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2799f063-9b4c-4fcc-ae00-d96461296183",
+      "comment": "",
+      "command": "click",
+      "target": "name=vSexo",
+      "targets": [
+        ["name=vSexo", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='vSexo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd733864-289f-4eb5-a8ff-d33c16051213",
+      "comment": "",
+      "command": "type",
+      "target": "name=vSexo",
+      "targets": [
+        ["name=vSexo", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='vSexo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "F"
+    }, {
+      "id": "810394df-f152-4858-9975-d2321f92a91d",
+      "comment": "",
+      "command": "click",
+      "target": "name=vPeso",
+      "targets": [
+        ["name=vPeso", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='vPeso']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85f4ec15-1e3f-4183-9eaa-139d6d4d7e79",
+      "comment": "",
+      "command": "type",
+      "target": "name=vPeso",
+      "targets": [
+        ["name=vPeso", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='vPeso']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "25.7"
+    }, {
+      "id": "f16e1aa0-e429-4691-95ca-7f0e6e7ba63c",
+      "comment": "",
+      "command": "click",
+      "target": "name=vAltura",
+      "targets": [
+        ["name=vAltura", "name"],
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='vAltura']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fa395e8-e15d-4d14-9a23-fa6385d50aa8",
+      "comment": "",
+      "command": "type",
+      "target": "name=vAltura",
+      "targets": [
+        ["name=vAltura", "name"],
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='vAltura']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": "1.0"
+    }, {
+      "id": "a5d65aa0-410b-4524-9f6c-a839cf95a743",
+      "comment": "",
+      "command": "click",
+      "target": "name=Enviar",
+      "targets": [
+        ["name=Enviar", "name"],
+        ["css=td:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='Enviar']", "xpath:attributes"],
+        ["xpath=//tr[4]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f656671b-bf37-47b2-ac27-1c7ae5e53d15",
+    "name": "Teste03",
+    "commands": [{
+      "id": "5f1cfa4c-dd1d-485f-9515-f0d2356704f2",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/CalcIMCWeb/calcular_imc.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0f7c9725-13eb-4948-949e-39982eee0b35",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x875",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83adacc9-9cbb-4c76-8ac1-f55858f5be17",
+      "comment": "",
+      "command": "click",
+      "target": "name=vSexo",
+      "targets": [
+        ["name=vSexo", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='vSexo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e751c256-9a14-4ed4-8951-c879acb5c4ba",
+      "comment": "",
+      "command": "type",
+      "target": "name=vSexo",
+      "targets": [
+        ["name=vSexo", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='vSexo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "F"
+    }, {
+      "id": "5281b928-4ed7-42be-b410-7f8be2afb8a3",
+      "comment": "",
+      "command": "click",
+      "target": "name=vPeso",
+      "targets": [
+        ["name=vPeso", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='vPeso']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "102b158f-c172-405a-b93e-7939f3fbb7b4",
+      "comment": "",
+      "command": "type",
+      "target": "name=vPeso",
+      "targets": [
+        ["name=vPeso", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='vPeso']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "27.2"
+    }, {
+      "id": "eacb8765-2ae5-42cd-87b3-263350f8b27f",
+      "comment": "",
+      "command": "click",
+      "target": "name=vAltura",
+      "targets": [
+        ["name=vAltura", "name"],
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='vAltura']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "42902a15-d2ab-47bb-a9ae-514312559b97",
+      "comment": "",
+      "command": "type",
+      "target": "name=vAltura",
+      "targets": [
+        ["name=vAltura", "name"],
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='vAltura']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": "1.0"
+    }, {
+      "id": "90f4e9c8-da6a-4fc3-90e9-6a85a64907f6",
+      "comment": "",
+      "command": "click",
+      "target": "name=Enviar",
+      "targets": [
+        ["name=Enviar", "name"],
+        ["css=td:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='Enviar']", "xpath:attributes"],
+        ["xpath=//tr[4]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "913ed17c-79b5-45ad-9892-7e548a0aa680",
+    "name": "Teste04",
+    "commands": [{
+      "id": "9042d837-ffbb-4299-8016-3a7790e9375c",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/CalcIMCWeb/calcular_imc.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9602452-3b16-4e11-9bf1-ca6a84a2f32a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x875",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f54be582-34aa-4636-8e95-6cfcfd1b53f9",
+      "comment": "",
+      "command": "click",
+      "target": "name=vSexo",
+      "targets": [
+        ["name=vSexo", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='vSexo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4f1f7f7-a649-430f-b267-f0ec5055d6c7",
+      "comment": "",
+      "command": "type",
+      "target": "name=vSexo",
+      "targets": [
+        ["name=vSexo", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='vSexo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "F"
+    }, {
+      "id": "3c821d37-a7ac-430a-ad46-fc9e84eab710",
+      "comment": "",
+      "command": "click",
+      "target": "name=vPeso",
+      "targets": [
+        ["name=vPeso", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='vPeso']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "456e38ba-0f05-43df-9dea-c602e38f521c",
+      "comment": "",
+      "command": "type",
+      "target": "name=vPeso",
+      "targets": [
+        ["name=vPeso", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='vPeso']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "31.1"
+    }, {
+      "id": "1977b8ef-cf42-4b25-9040-4adaafeece28",
+      "comment": "",
+      "command": "click",
+      "target": "name=vAltura",
+      "targets": [
+        ["name=vAltura", "name"],
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='vAltura']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9aa453f-f0e4-4908-b358-1bae28a6ff73",
+      "comment": "",
+      "command": "type",
+      "target": "name=vAltura",
+      "targets": [
+        ["name=vAltura", "name"],
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='vAltura']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": "1.0"
+    }, {
+      "id": "356ff62f-47dc-4da2-beac-cf93b279573b",
+      "comment": "",
+      "command": "click",
+      "target": "name=Enviar",
+      "targets": [
+        ["name=Enviar", "name"],
+        ["css=td:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='Enviar']", "xpath:attributes"],
+        ["xpath=//tr[4]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f0fa24c7-2796-4c79-a0d9-24cc1ce70ed0",
+    "name": "Teste05",
+    "commands": [{
+      "id": "8e4be6df-634a-4d66-8888-54dfbf47d8f1",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/CalcIMCWeb/calcular_imc.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc817cd1-600c-45a9-90d4-453c8fcab812",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x875",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c006610-792e-45b7-a94d-1536102acb80",
+      "comment": "",
+      "command": "click",
+      "target": "name=vSexo",
+      "targets": [
+        ["name=vSexo", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='vSexo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2bcad78-e9c2-4965-ab9d-23dfb2b067d7",
+      "comment": "",
+      "command": "type",
+      "target": "name=vSexo",
+      "targets": [
+        ["name=vSexo", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='vSexo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "F"
+    }, {
+      "id": "84b084d8-94d6-4642-97b4-fb3b5b3604d5",
+      "comment": "",
+      "command": "click",
+      "target": "name=vPeso",
+      "targets": [
+        ["name=vPeso", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='vPeso']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5543c196-4a46-48cc-bba1-6450d9de6429",
+      "comment": "",
+      "command": "type",
+      "target": "name=vPeso",
+      "targets": [
+        ["name=vPeso", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='vPeso']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "32"
+    }, {
+      "id": "592a2df8-35fd-4346-8736-882ebf246e40",
+      "comment": "",
+      "command": "click",
+      "target": "name=vAltura",
+      "targets": [
+        ["name=vAltura", "name"],
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='vAltura']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60a79c6f-581c-4e2f-a886-617b33d0ae64",
+      "comment": "",
+      "command": "type",
+      "target": "name=vAltura",
+      "targets": [
+        ["name=vAltura", "name"],
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='vAltura']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": "1.0"
+    }, {
+      "id": "5bf53dfd-302f-4caa-8a38-2cddd7dd2389",
+      "comment": "",
+      "command": "click",
+      "target": "name=vPeso",
+      "targets": [
+        ["name=vPeso", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='vPeso']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e63418e-6371-4a90-b037-237dea1ca64d",
+      "comment": "",
+      "command": "type",
+      "target": "name=vPeso",
+      "targets": [
+        ["name=vPeso", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='vPeso']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "32.0"
+    }, {
+      "id": "ab8ac762-dd2b-4252-8cd0-6ea25d177af1",
+      "comment": "",
+      "command": "click",
+      "target": "name=Enviar",
+      "targets": [
+        ["name=Enviar", "name"],
+        ["css=td:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='Enviar']", "xpath:attributes"],
+        ["xpath=//tr[4]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a2f3d617-f163-4782-af87-fad8199b775e",
+    "name": "Teste06",
+    "commands": [{
+      "id": "0a797cdd-adc6-4483-af6e-c6bb95fc0574",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/CalcIMCWeb/calcular_imc.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1007d241-5b7b-42a7-9cea-da3928216f8a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x875",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "17b6ef63-b01e-49c6-b21d-27fe76bf32fb",
+      "comment": "",
+      "command": "click",
+      "target": "name=vSexo",
+      "targets": [
+        ["name=vSexo", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='vSexo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b61f9994-9f80-4944-aab7-935c9cbde6f0",
+      "comment": "",
+      "command": "click",
+      "target": "name=vSexo",
+      "targets": [
+        ["name=vSexo", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='vSexo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8bbfc708-1bf6-490e-9eaf-032321c49690",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "name=vSexo",
+      "targets": [
+        ["name=vSexo", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='vSexo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65c73105-7dd6-41a2-8c19-76a750d2e47b",
+      "comment": "",
+      "command": "type",
+      "target": "name=vSexo",
+      "targets": [
+        ["name=vSexo", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='vSexo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "M"
+    }, {
+      "id": "3ede6cd2-2070-48ef-93fd-9b18ce0db947",
+      "comment": "",
+      "command": "click",
+      "target": "name=vPeso",
+      "targets": [
+        ["name=vPeso", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='vPeso']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12bb8057-b464-4607-b6f8-bb2942e3b454",
+      "comment": "",
+      "command": "type",
+      "target": "name=vPeso",
+      "targets": [
+        ["name=vPeso", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='vPeso']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "20.6"
+    }, {
+      "id": "5b1a4736-22ec-4b0b-a717-b59a220f5446",
+      "comment": "",
+      "command": "click",
+      "target": "name=vAltura",
+      "targets": [
+        ["name=vAltura", "name"],
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='vAltura']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20f4d0dd-5d9d-4150-a970-c8fa23f396cc",
+      "comment": "",
+      "command": "type",
+      "target": "name=vAltura",
+      "targets": [
+        ["name=vAltura", "name"],
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='vAltura']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": "1.0"
+    }, {
+      "id": "7a454b0b-20c1-4c6f-a2d5-05a6ec46f780",
+      "comment": "",
+      "command": "click",
+      "target": "name=Enviar",
+      "targets": [
+        ["name=Enviar", "name"],
+        ["css=td:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='Enviar']", "xpath:attributes"],
+        ["xpath=//tr[4]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0c9e711c-cdea-4351-bca3-ea0e135b42f8",
+    "name": "Teste07",
+    "commands": [{
+      "id": "014cf0ea-6e2e-4dc3-8511-c4da1cd8a9fc",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/CalcIMCWeb/calcular_imc.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8224e639-9f7c-4323-8eaf-40b08a676440",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x918",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f93ff53-08dd-4009-8ee3-c38be4c447f7",
+      "comment": "",
+      "command": "click",
+      "target": "name=vSexo",
+      "targets": [
+        ["name=vSexo", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='vSexo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ce5ca3b-349d-4cdf-82dd-9772e4262aa6",
+      "comment": "",
+      "command": "type",
+      "target": "name=vSexo",
+      "targets": [
+        ["name=vSexo", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='vSexo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "M"
+    }, {
+      "id": "153219cf-3275-4821-87af-58841bbb170d",
+      "comment": "",
+      "command": "click",
+      "target": "name=vPeso",
+      "targets": [
+        ["name=vPeso", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='vPeso']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8f39cfb-cc4b-44f3-b6f7-9f3817617818",
+      "comment": "",
+      "command": "type",
+      "target": "name=vPeso",
+      "targets": [
+        ["name=vPeso", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='vPeso']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "26.4"
+    }, {
+      "id": "90bbc9d7-99b0-4b0c-acbf-dc22503aca66",
+      "comment": "",
+      "command": "click",
+      "target": "name=vAltura",
+      "targets": [
+        ["name=vAltura", "name"],
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='vAltura']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd6460cc-4f1e-446d-bcee-d55689e12eb0",
+      "comment": "",
+      "command": "type",
+      "target": "name=vAltura",
+      "targets": [
+        ["name=vAltura", "name"],
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='vAltura']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": "1.0"
+    }, {
+      "id": "77b3b375-e1ac-4d18-899f-64b6471b84bc",
+      "comment": "",
+      "command": "click",
+      "target": "name=Enviar",
+      "targets": [
+        ["name=Enviar", "name"],
+        ["css=td:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='Enviar']", "xpath:attributes"],
+        ["xpath=//tr[4]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6295b2db-f719-46a7-933f-ba504783ff37",
+    "name": "Teste08",
+    "commands": [{
+      "id": "1e4852ca-a30d-4f8f-bbe4-3c7c0d5c7aa8",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/CalcIMCWeb/calcular_imc.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "31ce14af-e10f-4f69-b61f-29b089c6c2ad",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x918",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0129715a-adbc-4d44-a7ac-3e7c1d6f8a27",
+      "comment": "",
+      "command": "click",
+      "target": "name=vSexo",
+      "targets": [
+        ["name=vSexo", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='vSexo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27b1e045-3a4a-446f-b41c-fc1748bbe32c",
+      "comment": "",
+      "command": "type",
+      "target": "name=vSexo",
+      "targets": [
+        ["name=vSexo", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='vSexo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "M"
+    }, {
+      "id": "f4058a5a-f271-4b28-90ad-301fd32cfcb1",
+      "comment": "",
+      "command": "click",
+      "target": "name=vPeso",
+      "targets": [
+        ["name=vPeso", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='vPeso']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac99ea2b-eb14-48d6-bcd2-14b9cf1ee571",
+      "comment": "",
+      "command": "type",
+      "target": "name=vPeso",
+      "targets": [
+        ["name=vPeso", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='vPeso']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "27.7"
+    }, {
+      "id": "a8bb698c-19a7-4489-8d32-9183bbf51c98",
+      "comment": "",
+      "command": "click",
+      "target": "name=vAltura",
+      "targets": [
+        ["name=vAltura", "name"],
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='vAltura']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa1819e2-0bdf-4399-979c-ec75cca90534",
+      "comment": "",
+      "command": "type",
+      "target": "name=vAltura",
+      "targets": [
+        ["name=vAltura", "name"],
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='vAltura']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": "1.0"
+    }, {
+      "id": "dea248e5-1ab4-4eca-8881-803340ce4dc5",
+      "comment": "",
+      "command": "click",
+      "target": "name=Enviar",
+      "targets": [
+        ["name=Enviar", "name"],
+        ["css=td:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='Enviar']", "xpath:attributes"],
+        ["xpath=//tr[4]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "959dc9c9-13f2-436b-9f24-4fbef644f06f",
+    "name": "Teste09",
+    "commands": [{
+      "id": "232eaa52-2d4a-4f6c-b00f-067f78ce68ca",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/CalcIMCWeb/calcular_imc.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1fe5c74c-47df-4af3-9b2f-072e95077692",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x875",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "04693360-19f0-4af4-8455-3c47af69aeb4",
+      "comment": "",
+      "command": "click",
+      "target": "name=vSexo",
+      "targets": [
+        ["name=vSexo", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='vSexo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e5d5dfa-7663-4da9-bd86-a0de0717d85b",
+      "comment": "",
+      "command": "type",
+      "target": "name=vSexo",
+      "targets": [
+        ["name=vSexo", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='vSexo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "M"
+    }, {
+      "id": "37f03dc3-994c-4f2b-b47a-de6242ad5a08",
+      "comment": "",
+      "command": "click",
+      "target": "name=vPeso",
+      "targets": [
+        ["name=vPeso", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='vPeso']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc88d9e1-6c35-4140-8ca9-124cfc343faa",
+      "comment": "",
+      "command": "type",
+      "target": "name=vPeso",
+      "targets": [
+        ["name=vPeso", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='vPeso']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "31.0"
+    }, {
+      "id": "c03f5595-03f3-4a7e-bd5c-5aff5ffd4f96",
+      "comment": "",
+      "command": "click",
+      "target": "name=vAltura",
+      "targets": [
+        ["name=vAltura", "name"],
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='vAltura']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "315447c5-640a-46eb-a54a-06f8e422649c",
+      "comment": "",
+      "command": "type",
+      "target": "name=vAltura",
+      "targets": [
+        ["name=vAltura", "name"],
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='vAltura']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": "1.0"
+    }, {
+      "id": "2286be6c-81c5-49b4-bdd4-e1016b50bd6d",
+      "comment": "",
+      "command": "click",
+      "target": "name=Enviar",
+      "targets": [
+        ["name=Enviar", "name"],
+        ["css=td:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='Enviar']", "xpath:attributes"],
+        ["xpath=//tr[4]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ba02d382-78d1-4b38-9f13-01b77bb3724d",
+    "name": "Teste10",
+    "commands": [{
+      "id": "8c8a1495-ccb3-40d7-9f13-245cfa11d430",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/CalcIMCWeb/calcular_imc.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "11d0c7b6-4ba1-4338-8dfb-7a0b9cadd2af",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x875",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59d82b47-2112-49eb-b0e7-ee51224512fe",
+      "comment": "",
+      "command": "click",
+      "target": "name=vSexo",
+      "targets": [
+        ["name=vSexo", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='vSexo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8cd2ba6-10f3-42fb-a75f-d1ff42c6a4ea",
+      "comment": "",
+      "command": "type",
+      "target": "name=vSexo",
+      "targets": [
+        ["name=vSexo", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='vSexo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "M"
+    }, {
+      "id": "9ca112b4-b6a8-4bc7-b1b0-88cfed2207ca",
+      "comment": "",
+      "command": "click",
+      "target": "name=vPeso",
+      "targets": [
+        ["name=vPeso", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='vPeso']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fde69ee0-2bf1-4361-af67-462d84977082",
+      "comment": "",
+      "command": "type",
+      "target": "name=vPeso",
+      "targets": [
+        ["name=vPeso", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='vPeso']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "31"
+    }, {
+      "id": "916b287f-f314-41ae-ab9f-668c3799aaaa",
+      "comment": "",
+      "command": "type",
+      "target": "name=vPeso",
+      "targets": [
+        ["name=vPeso", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='vPeso']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "31.2"
+    }, {
+      "id": "e099893e-bb60-412b-99d4-2e4aea29adbb",
+      "comment": "",
+      "command": "click",
+      "target": "name=vAltura",
+      "targets": [
+        ["name=vAltura", "name"],
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='vAltura']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a262e51-5c32-4484-bd4a-4c3bbc3d3aa5",
+      "comment": "",
+      "command": "type",
+      "target": "name=vAltura",
+      "targets": [
+        ["name=vAltura", "name"],
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='vAltura']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": "1.0"
+    }, {
+      "id": "027462ad-908e-4e2d-8d83-b69b0ccdba0b",
+      "comment": "",
+      "command": "click",
+      "target": "name=Enviar",
+      "targets": [
+        ["name=Enviar", "name"],
+        ["css=td:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='Enviar']", "xpath:attributes"],
+        ["xpath=//tr[4]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8ce98be6-446b-45cd-910e-21e22ea081c1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost:8080/", "http://localhost:8080/CalcIMCWeb/calcular_imc.jsp"],
+  "plugins": []
+}
