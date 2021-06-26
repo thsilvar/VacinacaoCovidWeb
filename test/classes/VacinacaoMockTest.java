@@ -4,17 +4,23 @@
  * and open the template in the editor.
  */
 package classes;
-
 /**
  *
  * @author thiagosilva
  */
-
-
 import junit.framework.TestCase;
 import static org.easymock.EasyMock.*;
 
 public class VacinacaoMockTest extends TestCase {
+    
+        public void testeVacina_NaoExistente(){
+           	  ICalculoIdade idadeMock = createMock(ICalculoIdade.class);
+		  expect(idadeMock.getIdadePaciente()).andReturn(-1);
+		  replay(idadeMock);
+		  
+		  Vacinacao vacinacao = new Vacinacao();
+		  assertEquals("Idade Invalida", vacinacao.Previsao(idadeMock));
+	  }
 	
 	public void testVacinacao_idadeMinima() {
 		  ICalculoIdade idadeMock = createMock(ICalculoIdade.class);

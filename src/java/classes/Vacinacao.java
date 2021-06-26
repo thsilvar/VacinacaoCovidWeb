@@ -20,11 +20,19 @@ public class Vacinacao {
 	public int IDADE_50_ANOS = 50;
 	public int IDADE_55_ANOS = 55;
 	public int IDADE_60_ANOS = 60;
+        
+
 
 	public String Previsao(ICalculoIdade idadePaciente) {
+            
+            
 		
 		int idade = idadePaciente.getIdadePaciente() ;
 
+                if(idade<=0){
+                    throw new IllegalArgumentException("Idade Invalida");
+                }
+                
 		if (idade < IDADE_MINIMA) {                                                                                      
 			return "Você ainda não consta no calendario de vacinação.";													 //2
 		} else if (idade <= IDADE_20_ANOS) {                                                                            
